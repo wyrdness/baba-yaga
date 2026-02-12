@@ -1,0 +1,365 @@
+{
+  "category": "FAE_FOLKLORE",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/baba-yaga",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "baba-yaga",
+    "name": "Baba Yaga",
+    "aliases": [
+      {
+        "name": "Baba Jaga",
+        "language": "Polish",
+        "meaning": "Grandmother Yaga"
+      },
+      {
+        "name": "Ježibaba",
+        "language": "Czech/Slovak",
+        "meaning": "Witch Baba"
+      },
+      {
+        "name": "Баба-Яга",
+        "language": "Russian (Cyrillic)",
+        "meaning": "Grandmother Yaga"
+      }
+    ],
+    "category": "FAE_FOLKLORE",
+    "subcategory": "ENTITY_SPIRIT",
+    "tags": [
+      "slavic-folklore",
+      "witch",
+      "ambiguous-character",
+      "forest-spirit",
+      "fairy-tale",
+      "wise-crone",
+      "threshold-guardian"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Slavic folklore witch who is morally ambiguous, helping or hindering visitors to her forest dwelling. Lives in a hut on chicken legs, flies in a mortar, and tests those who seek her aid.",
+      "full": "Baba Yaga is a legendary witch from Slavic folklore, particularly prominent in Russian fairy tales. She is an ambiguous character who neither purely good nor evil, operating by her own inscrutable rules. Depicted as an old woman with iron teeth and bony legs, she flies through the forest in a mortar, using a pestle as a rudder. Her dwelling is a hut that stands on chicken legs, spins around, and can only be entered by speaking a specific phrase. The fence around her home is topped with skulls whose eyes glow in the darkness. Baba Yaga tests visitors with difficult tasks and riddles; she may devour those who fail or displease her, but helps the pure-hearted. She possesses powerful magic, controls day and night through three horsemen, and can shape-shift. She represents the wild nature, serves as guardian of the threshold between worlds, and embodies themes of death, rebirth, and the wise crone archetype."
+    },
+    "etymology": {
+      "origin": "Etymology uncertain. 'Baba' means grandmother or old woman in Slavic languages. 'Yaga' may derive from Old Russian 'ягая' (yagaya) meaning 'anger, rage' or Proto-Slavic words related to horror or serpent.",
+      "meaning": "Grandmother Yaga / The Witch Grandmother",
+      "first_use": "Documented in Russian folklore by 18th century, oral traditions much older"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "FAE_FOLKLORE",
+      "type": "ENTITY_SPIRIT",
+      "subtype": "Slavic Witch",
+      "variant": "Forest Spirit"
+    },
+    "related_phenomena": [
+      {
+        "id": "leshy",
+        "name": "Leshy",
+        "relationship": "related",
+        "description": "Slavic male forest spirit"
+      },
+      {
+        "id": "rusalka",
+        "name": "Rusalka",
+        "relationship": "related",
+        "description": "Slavic water spirit"
+      },
+      {
+        "id": "vila",
+        "name": "Vila",
+        "relationship": "related",
+        "description": "Slavic nature spirit"
+      },
+      {
+        "id": "cailleach",
+        "name": "Cailleach",
+        "relationship": "similar",
+        "description": "Celtic divine hag/crone figure"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": "Old woman",
+      "features": [
+        {
+          "feature": "Iron teeth",
+          "description": "Sharp metallic teeth",
+          "frequency": "always"
+        },
+        {
+          "feature": "Bony legs",
+          "description": "Skeletal or extremely thin legs",
+          "frequency": "always"
+        },
+        {
+          "feature": "Long nose",
+          "description": "Often depicted with prominent, hooked nose",
+          "frequency": "common"
+        },
+        {
+          "feature": "Wild hair",
+          "description": "Disheveled, unkempt hair",
+          "frequency": "common"
+        },
+        {
+          "feature": "Aged appearance",
+          "description": "Ancient, withered crone",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Elderly human woman with supernatural features. Appearance emphasizes age, wildness, and otherworldly nature."
+    },
+    "abilities": [
+      {
+        "ability": "Flight in mortar",
+        "description": "Flies through forest in mortar, using pestle as rudder, sweeping away tracks with broom",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Control of day and night",
+        "description": "Commands three horsemen: white (day), red (sun), black (night)",
+        "frequency": "documented_in_tales",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Shape-shifting",
+        "description": "Can transform into various forms",
+        "frequency": "occasional",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Magic and sorcery",
+        "description": "Powerful magical abilities, knowledge of spells and enchantments",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Knowledge and wisdom",
+        "description": "Possesses deep knowledge, often knows what visitors seek",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "disposition": "ambiguous",
+      "patterns": [
+        "Tests visitors with tasks and riddles",
+        "Devours those who fail or show disrespect",
+        "Helps the pure-hearted, honest, and polite",
+        "Operates by own inscrutable rules",
+        "Guards threshold between worlds",
+        "Demands proper respect and ritual approach"
+      ],
+      "dwelling": {
+        "name": "Hut on chicken legs (избушка)",
+        "description": "Wooden hut standing on giant chicken legs, can spin around, moves on command",
+        "entry_phrase": "Turn your back to the forest, your front to me" (or variations),
+        "fence": "Topped with skulls with glowing eyes that illuminate the darkness"
+      }
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Slavic folklore across Eastern Europe, strongest presence in Russian fairy tales.",
+      "continents": ["Europe"],
+      "countries": ["Russia", "Ukraine", "Poland", "Czech Republic", "Slovakia", "Belarus", "Serbia", "Bulgaria"],
+      "regions": [
+        "Russian heartland",
+        "Eastern Europe",
+        "Slavic cultural sphere"
+      ]
+    },
+    "cultural_centers": [
+      {
+        "name": "Russia",
+        "significance": "Primary source of Baba Yaga tales, especially Russian fairy tales",
+        "notes": "Most extensive folklore tradition"
+      },
+      {
+        "name": "Poland",
+        "significance": "Baba Jaga traditions",
+        "notes": "Regional variants with Polish cultural elements"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "18th century",
+        "circa": true,
+        "source": "Written Russian folklore collections, oral traditions much older"
+      },
+      "origin_period": "Pre-Christian Slavic traditions",
+      "notes": "Likely has roots in ancient Slavic paganism and goddess worship"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Pre-Christian Slavic mythology and paganism. Possibly evolved from ancient Slavic goddess or nature spirit traditions. May represent aspects of death goddess or earth mother archetype.",
+      "earliest_accounts": "Oral traditions dating to Slavic pagan era. First written records from 18th century Russian folklore collections.",
+      "folklore_connections": "Connected to worldwide wise woman/crone archetypes, witches, and threshold guardian figures."
+    },
+    "timeline": [
+      {
+        "date": "Pre-Christian era",
+        "event": "Origins in Slavic paganism",
+        "significance": "Possible goddess or spirit figure in ancient Slavic religion",
+        "source": "Anthropological research"
+      },
+      {
+        "date": "18th century",
+        "event": "First written documentation",
+        "significance": "Russian folklore collections record Baba Yaga tales",
+        "source": "Folklore collections"
+      },
+      {
+        "date": "19th century",
+        "event": "Alexander Afanasyev collections",
+        "significance": "Major Russian fairy tale compilations featuring Baba Yaga",
+        "source": "Afanasyev's Russian Fairy Tales"
+      },
+      {
+        "date": "20th century",
+        "event": "International recognition",
+        "significance": "Baba Yaga becomes known beyond Slavic world through translations",
+        "source": "Literary translations"
+      },
+      {
+        "date": "2014",
+        "event": "John Wick film",
+        "significance": "Baba Yaga referenced as nickname for assassin (misapplied as male 'boogeyman')",
+        "source": "Film"
+      }
+    ],
+    "modern_era": "Baba Yaga remains active in Slavic cultural memory and continues to appear in literature, film, games, and art. Modern interpretations range from faithful folklore retellings to creative reimaginings in fantasy and horror genres."
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Fairy tales featuring Baba Yaga as antagonist or helper",
+        "Tales of heroes seeking her aid or wisdom",
+        "Stories of children captured and tested by Baba Yaga"
+      ],
+      "famous_tales": [
+        "Vasilisa the Beautiful (tests heroine with impossible tasks)",
+        "The Death of Koschei the Deathless (provides crucial information to hero)",
+        "Prince Ivan and the Firebird (aids prince in quest)"
+      ],
+      "beliefs": "Represents wild nature, death and rebirth cycles, the power of proper behavior and respect, threshold between ordinary and magical worlds."
+    },
+    "indigenous": {
+      "sensitivity_note": "Baba Yaga is core element of Slavic folklore and cultural heritage. While open to creative interpretation, authentic representation and cultural context should be respected.",
+      "respect_guidelines": "Recognize Slavic cultural origins, avoid misrepresentation (such as incorrectly making her male), understand symbolic and archetypal significance in Slavic tradition."
+    },
+    "popular_culture": {
+      "literature": [
+        "\"Baba Yaga Laid an Egg\" by Dubravka Ugrešić (2007)",
+        "\"Deathless\" by Catherynne M. Valente (2011)",
+        "Hellboy comics featuring Baba Yaga (Mike Mignola)",
+        "Numerous children's book adaptations"
+      ],
+      "film_tv": [
+        "John Wick film series (2014-) - Referenced as boogeyman (misapplied)",
+        "Hellboy (2019) - Baba Yaga appearance",
+        "The Last Witch Hunter (2015)",
+        "Various animated adaptations of Russian fairy tales"
+      ],
+      "games": [
+        "Quest for Glory series",
+        "Thea: The Awakening",
+        "Smite (playable character)",
+        "Dungeons & Dragons (various editions)"
+      ],
+      "other": [
+        "Ballet and orchestral works based on Russian fairy tales",
+        "Art installations and exhibitions",
+        "Halloween costumes and decorations"
+      ]
+    },
+    "symbolism": {
+      "meanings": [
+        "Wild nature and untamed feminine power",
+        "Death and rebirth, transformation",
+        "Guardian of threshold between worlds",
+        "Wise crone archetype",
+        "Tests and initiation rituals",
+        "Consequences of behavior and respect"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Alexander Afanasyev",
+        "affiliation": "Folklorist",
+        "contribution": "Collected and published Russian fairy tales including Baba Yaga stories",
+        "period": "19th century"
+      },
+      {
+        "name": "Vladimir Propp",
+        "affiliation": "Folklorist",
+        "contribution": "Analyzed structure of Russian fairy tales including Baba Yaga tales",
+        "period": "20th century"
+      },
+      {
+        "name": "Andreas Johns",
+        "affiliation": "Slavic folklore scholar",
+        "contribution": "Academic study of Baba Yaga figure and origins",
+        "period": "Contemporary"
+      }
+    ],
+    "organizations": [],
+    "ongoing_studies": "Contemporary folklore and literary studies continue examining Baba Yaga's origins, cultural significance, and evolution in modern media. Feminist and archetypal scholars analyze the crone/wise woman symbolism."
+  },
+
+  "sources": [
+    {
+      "id": "afanasyev-fairy-tales",
+      "type": "book",
+      "title": "Russian Fairy Tales",
+      "authors": ["Alexander Afanasyev"],
+      "publication": "Various editions",
+      "date": "1855-1863"
+    },
+    {
+      "id": "johns-2004",
+      "type": "book",
+      "title": "Baba Yaga: The Ambiguous Mother and Witch of the Russian Folktale",
+      "authors": ["Andreas Johns"],
+      "publication": "Peter Lang Publishing",
+      "date": "2004",
+      "isbn": "978-0820466026"
+    },
+    {
+      "id": "propp-1968",
+      "type": "book",
+      "title": "Morphology of the Folktale",
+      "authors": ["Vladimir Propp"],
+      "publication": "University of Texas Press",
+      "date": "1968"
+    }
+  ]
+}
